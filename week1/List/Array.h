@@ -14,9 +14,9 @@ public:
     LinearList(T v[], int n, int ListSize = defaultSize);
     LinearList(int ListSize = defaultSize);
     ~LinearList();
-//ÔÚµÚi¸öÔªËØµÄºóÃæ²åÈëe
+//ï¿½Úµï¿½iï¿½ï¿½Ôªï¿½ØµÄºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½e
     bool insertElem(int i, const T& e);
-//²éÕÒÏßÐÔ±íÖÐµÄÔªËØ£¬·µ»ØÔªËØÐòºÅ,ÕÒ²»µ½·µ»Ø0
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Ðµï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0
     int findElem(const T& e);
     bool deleteElem(int num);
     void Write();
@@ -37,6 +37,7 @@ LinearList<T>::~LinearList()
 template<class T>
 void LinearList<T>::Write()
 {
+    cout<<endl;
     for(int i = 0;i<length;i++)
     {
         cout<<header[i]<<" ";
@@ -57,7 +58,7 @@ LinearList<T>::LinearList(T v[], int n, int ListSize)
 template<class T>
 bool LinearList<T>::insertElem(int i, const T& e)
 {
-    if(i<1 || i>length)
+    if(i<0 || i>length)
         return false;
     for(int j = length;j>i;j--)
     {

@@ -1,0 +1,3 @@
+C:/GitHub/2020_12_DataStructure/week1/List/cmake-build-debug/CMakeFiles/List.dir
+C:/GitHub/2020_12_DataStructure/week1/List/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GitHub/2020_12_DataStructure/week1/List/cmake-build-debug/CMakeFiles/rebuild_cache.dir
