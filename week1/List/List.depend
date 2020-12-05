@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1607156942 source:c:\github\2020_12_datastructure\week1\list\main.cpp
+1607157243 source:c:\github\2020_12_datastructure\week1\list\main.cpp
 	<iostream>
 	"Array.h"
 	"List.h"
@@ -7,6 +7,6 @@
 1607156771 c:\github\2020_12_datastructure\week1\list\array.h
 	<iostream>
 
-1607096069 c:\github\2020_12_datastructure\week1\list\list.h
+1607177907 c:\github\2020_12_datastructure\week1\list\list.h
 	<iostream>
 

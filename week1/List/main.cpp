@@ -5,7 +5,7 @@ int x,y;
 int main() {
     try{
     int a[] = {1,2,3,4,5,6};
-    /*
+
     LinearList<int> myLinearList(a, 6);
     cout<<"linear array par default:";
     myLinearList.Write();
@@ -22,7 +22,6 @@ int main() {
     cout<<endl<<"input element and return index:";cin>>x;
     if(myLinearList.findElem(x)!=0){
         cout<<"the "<<x<<" index is "<<myLinearList.findElem(x);
-        myLinearList.Write();
     }
     else{
         throw("element doesn't exeist!");
@@ -35,13 +34,13 @@ int main() {
         cout<<endl<<"delete "<<x<<" then we have:";
         myLinearList.Write();
     }
-    */
+
 
 
 
 
     LinkList<int> myLinkList(a, 6);
-    cout<<endl<<endl<<"LinkList par default:";
+    cout<<endl<<endl<<"LinkList par default:"<<endl;
     myLinkList.Write();
 
     cout<<endl<<"insert element:";cin>>x;
@@ -56,7 +55,6 @@ int main() {
     cout<<endl<<"input element and return index:";cin>>x;
     if(myLinkList.findElem(x)!=0){
         cout<<"the "<<x<<" index is "<<myLinkList.findElem(x);
-        myLinkList.Write();
     }
     else{
         throw("element doesn't exeist!");
@@ -66,7 +64,7 @@ int main() {
     if(!myLinkList.deleteElem(x))
         throw("index out of range!");
     else{
-        cout<<endl<<"delete "<<x<<" then we have:";
+        cout<<endl<<"delete "<<x<<" then we have:"<<endl;
         myLinkList.Write();
     }
 

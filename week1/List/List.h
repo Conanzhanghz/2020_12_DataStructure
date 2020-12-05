@@ -106,14 +106,21 @@ bool LinkList<T>::deleteElem(int num)
 template<class T>
 bool LinkList<T>::insertElem(int i, T e)
 {
+    if(i == 0){
+        header = new node<T>(e,header);
+        length++;
+        return true;
+    }
+    else{
     node<T>* ptr = header;
     for(int j = 1;j<=length;j++)
     {
         if(j == i){
-            ptr->next = new node<T>(e,ptr->next);return true;}
+            ptr->next = new node<T>(e,ptr->next);length++;return true;}
         ptr = ptr->next;
     }
     return false;
+    }
 }
 template<class T>
 void LinkList<T>::Write()
