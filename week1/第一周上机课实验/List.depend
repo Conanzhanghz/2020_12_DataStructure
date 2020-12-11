@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1607178203 source:c:\github\2020_12_datastructure\week1\list\main.cpp
+	<iostream>
+	"Array.h"
+	"List.h"
+
+1607388737 c:\github\2020_12_datastructure\week1\list\array.h
+	<iostream>
+
+1607388793 c:\github\2020_12_datastructure\week1\list\list.h
+	<iostream>
+

@@ -35,6 +35,7 @@ protected:
     int length;
 public:
     LinkList(T v[], int n);
+    ~LinkList();
     bool insertElem(int i, T e);
     int findElem(const T e);
     bool deleteElem(int num);
@@ -54,8 +55,20 @@ LinkList<T>::LinkList(T v[], int n)
         p->next = new node<T>(v[i-1],nullptr);
         p = p->next;
     }
-
 }
+
+template<class T>
+LinkList<T>::~LinkList()
+{
+    node<T>* p = header->next;
+    while(p!=nullptr)
+    {
+        header->next = p->next;
+        delete p;
+        p = header->next;
+    }
+}
+
 template<class T>
 int LinkList<T>::findElem(const T e)
 {

@@ -14,9 +14,7 @@ public:
     LinearList(T v[], int n, int ListSize = defaultSize);
     LinearList(int ListSize = defaultSize);
     ~LinearList();
-//�ڵ�i��Ԫ�صĺ������e
     bool insertElem(int i, const T& e);
-//�������Ա��е�Ԫ�أ�����Ԫ�����,�Ҳ�������0
     int findElem(const T& e);
     bool deleteElem(int num);
     void Write();
