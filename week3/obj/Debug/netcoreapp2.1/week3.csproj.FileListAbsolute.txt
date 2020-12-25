@@ -1,0 +1,11 @@
+C:\Github\2020_12_DataStructure\week3\bin\Debug\netcoreapp2.1\week3.deps.json
+C:\Github\2020_12_DataStructure\week3\bin\Debug\netcoreapp2.1\week3.runtimeconfig.json
+C:\Github\2020_12_DataStructure\week3\bin\Debug\netcoreapp2.1\week3.runtimeconfig.dev.json
+C:\Github\2020_12_DataStructure\week3\bin\Debug\netcoreapp2.1\week3.dll
+C:\Github\2020_12_DataStructure\week3\bin\Debug\netcoreapp2.1\week3.pdb
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.csprojAssemblyReference.cache
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.csproj.CoreCompileInputs.cache
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.AssemblyInfoInputs.cache
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.AssemblyInfo.cs
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.dll
+C:\Github\2020_12_DataStructure\week3\obj\Debug\netcoreapp2.1\week3.pdb
