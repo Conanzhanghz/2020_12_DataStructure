@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1610210031 source:c:\github\2020_12_datastructure\week5\triple\main.cpp
+	<iostream>
+	"Triple.h"
+
+1610210031 c:\github\2020_12_datastructure\week5\triple\triple.h
+	<iostream>
+	<stdexcept>
+	"Assistance.h"
+
+1610206469 c:\github\2020_12_datastructure\week5\triple\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
