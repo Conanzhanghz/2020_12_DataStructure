@@ -1,0 +1,4 @@
+﻿  BinaryTree.cpp
+C:\GitHub\2020_12_DataStructure\week7\BinaryTree\BinaryTree\BinaryTree.h(69,10): error C2760: 语法错误: 意外标记 "}"，应为 "表达式"
+C:\GitHub\2020_12_DataStructure\week7\BinaryTree\BinaryTree\BinaryTree.h(76,19): error C2955: “BinaryTreeNode”: 使用 类 模板 需要 模板 参数列表
+C:\GitHub\2020_12_DataStructure\week7\BinaryTree\BinaryTree\BinaryTree.h(7): message : 参见“BinaryTreeNode”的声明
